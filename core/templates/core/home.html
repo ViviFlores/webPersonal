@@ -1,0 +1,14 @@
+<!--Herendado del template padre-->
+{% extends "core/base.html" %} 
+
+{% block title %}Portada{% endblock  %}
+
+<!--Imagen cabecera-->
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+<!--Título y descripción-->
+{% block header %}
+<h1>Viviana Flores</h1>
+<span class="subheading">Ingeniera en Sistemas</span>
+{% endblock %}
+
